@@ -1,4 +1,5 @@
-Feature: Going to Validate AdactinBooking System
+Feature: 
+           Going to Validate AdactinBooking System
 Scenario Outline: TC01 - Complete booking session of the hotel and validate the next page
   Given To launch the Url
   And Validate the homepage

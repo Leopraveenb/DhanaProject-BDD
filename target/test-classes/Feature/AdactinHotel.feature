@@ -18,7 +18,8 @@ Scenario Outline: TC01 - Complete booking session of the hotel and validate the 
     | username | password | location | hotels      | roomtype | numberofrooms | checkindate | checkoutdate | adults  | children | Firstname        | Lastname   | billingAddress | cardNumber       | cardType | expMonth | expYear | cvv |
     | dhanas37 | 542389  | Sydney   | Hotel Creek | Standard | 1 - One       | 25/08/2026  | 26/08/2026   | 2 - Two | 1 - One  | DhanaLakshmi     | Purushoth  | Chennai        | 1234567890123456 | VISA     | January  | 2028    | 123 |
 
-Scenario Outline: TC02 - Login without username and validate the exception
+Scenario Outline: 
+                 TC02 - Login without username and validate the exception
 
   Given To launch the Url
   And Validate the homepage
